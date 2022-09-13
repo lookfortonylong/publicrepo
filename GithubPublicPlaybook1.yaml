@@ -1,0 +1,8 @@
+- name: My Github Public Playbook1
+  hosts: allserver
+  tasks:
+   - name: Ping my servers
+     ansible.builtin.ping:
+   - name: Print my message
+     ansible.builtin.debug:
+       msg: Hello world
