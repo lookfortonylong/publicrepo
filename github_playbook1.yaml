@@ -1,8 +1,0 @@
-- name: "Get ping response"
-  hosts: allserver
-  tasks:
-   - name: ping my server
-     ansible.builtin.ping:
-   - name: print my message
-     ansible.builtin.debug:
-      msg: hello world
