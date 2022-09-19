@@ -1,0 +1,11 @@
+- hosts: webserver
+  gather_facts: False
+  become: true
+  vars_files:
+    - /etc/ansible/vars/default.yml
+  roles:
+    - apache
+    - php
+    - mysql
+    - wordpress
+    - firewall
