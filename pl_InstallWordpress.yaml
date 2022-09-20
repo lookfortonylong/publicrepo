@@ -2,7 +2,8 @@
   gather_facts: False
   become: true
   vars_files:
-    - /etc/ansible/vars/default.yml
+    #- /etc/ansible/vars/default.yml
+    - https://github.com/lookfortonylong/publicrepo/tree/main/wordpress/vars/default.yml
   roles:
     - apache
     - php
