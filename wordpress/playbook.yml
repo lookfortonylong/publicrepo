@@ -1,4 +1,4 @@
-- hosts: target1
+- hosts: webserver
   gather_facts: False
   become: true
   vars_files:
