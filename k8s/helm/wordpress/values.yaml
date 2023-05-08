@@ -16,27 +16,27 @@ wordpressUsername: admin
 ## Defaults to a random 10-character alphanumeric string if not set
 ## ref: https://github.com/bitnami/bitnami-docker-wordpress#environment-variables
 ##
-wordpressPassword: kspm123456
+wordpressPassword: Bosch@123
 
 ## Admin email
 ## ref: https://github.com/bitnami/bitnami-docker-wordpress#environment-variables
 ##
-wordpressEmail: hoangtua.vn@gmail.com
+wordpressEmail: lookfortonylong@gmail.com
 
 ## First name
 ## ref: https://github.com/bitnami/bitnami-docker-wordpress#environment-variables
 ##
-wordpressFirstName: Tua
+wordpressFirstName: Tony
 
 ## Last name
 ## ref: https://github.com/bitnami/bitnami-docker-wordpress#environment-variables
 ##
-wordpressLastName: Nguyen
+wordpressLastName: Long
 
 ## Blog name
 ## ref: https://github.com/bitnami/bitnami-docker-wordpress#environment-variables
 ##
-wordpressBlogName: User's Blog!
+wordpressBlogName: Tonylong's Blog!
 
 ## Table prefix
 ## ref: https://github.com/bitnami/bitnami-docker-wordpress#environment-variables
@@ -59,7 +59,7 @@ wordpressSkipInstall: false
 allowEmptyPassword: false
 
 
-replicaCount: 4
+replicaCount: 1
 
 
 ## WordPress containers' resource requests and limits
@@ -168,15 +168,15 @@ externalDatabase:
 
   ## non-root Username for Wordpress Database
   ##
-  user: kysuphanmem
+  user: tony
 
   ## Database password
   ##
-  password: "kspm123456"
+  password: "Bosch@123"
 
   ## Database name
   ##
-  database: kysuphanmem
+  database: wordpressdb
 
   ## Database port number
   ##
