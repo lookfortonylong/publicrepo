@@ -38,19 +38,19 @@ securityContext:
 ## MariaDB admin credentials
 ##
 rootUser:
-  password: ""
+  password: "Bosch@123"
   ## Option to force users to specify a password. That is required for 'helm upgrade' to work properly.
   ## If it is not force, a random password will be generated.
   ##
-  forcePassword: false
+  forcePassword: true
 
 
 ## Custom user/db credentials
 ##
 db:
-  user: "kysuphanmem"
-  password: "kspm123456"
-  name: kysuphanmem
+  user: "trung"
+  password: "Bosch@123"
+  name: wordpressdb
   ## Option to force users to specify a password. That is required for 'helm upgrade' to work properly.
   ## If it is not force, a random password will be generated.
   ##
@@ -62,11 +62,11 @@ db:
 replication:
   enabled: true
   user: replicator
-  password: ""
+  password: "Bosch@123"
   ## Option to force users to specify a password. That is required for 'helm upgrade' to work properly.
   ## If it is not force, a random password will be generated.
   ##
-  forcePassword: false
+  forcePassword: true
 
 master:
   ## Enable persistence using Persistent Volume Claims
@@ -74,7 +74,7 @@ master:
   ##
   persistence:
     enabled: true
-    mountPath: /bitnami/mariadb
+    mountPath: /data/mariadb
     storageClass: "standard"
     accessModes:
       - ReadWriteOnce
