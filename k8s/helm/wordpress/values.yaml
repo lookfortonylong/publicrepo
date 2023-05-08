@@ -168,7 +168,7 @@ externalDatabase:
 
   ## non-root Username for Wordpress Database
   ##
-  user: tony
+  user: tonylong
 
   ## Database password
   ##
