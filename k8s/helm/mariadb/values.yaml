@@ -48,7 +48,7 @@ rootUser:
 ## Custom user/db credentials
 ##
 db:
-  user: "trung"
+  user: "tonylong"
   password: "Bosch@123"
   name: wordpressdb
   ## Option to force users to specify a password. That is required for 'helm upgrade' to work properly.
