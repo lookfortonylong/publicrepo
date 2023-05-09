@@ -91,7 +91,7 @@ slave:
   replicas: 2
   persistence:
     enabled: true
-    storageClass: "standard"
+    storageClass: "my-storageclass"
     annotations:
     accessModes:
       - ReadWriteOnce
