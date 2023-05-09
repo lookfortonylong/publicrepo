@@ -75,7 +75,7 @@ master:
   persistence:
     enabled: true
     mountPath: /data/mariadb
-    storageClass: "standard"
+    storageClass: "my-storageclass"
     accessModes:
       - ReadWriteOnce
     size: 8Gi
